@@ -1,0 +1,37 @@
+[0.583s] Invoking command in '/home/yushutian/ws01_plumbing/src/py01_topic': AMENT_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yushutian/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/yushutian/ws01_plumbing/build/py01_topic/build install --record /home/yushutian/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.762s] running egg_info
+[0.762s] creating ../../build/py01_topic/py01_topic.egg-info
+[0.773s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.773s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.773s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.773s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.773s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.773s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.794s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.795s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.795s] running build
+[0.795s] running build_py
+[0.795s] creating /home/yushutian/ws01_plumbing/build/py01_topic/build
+[0.795s] creating /home/yushutian/ws01_plumbing/build/py01_topic/build/lib
+[0.795s] creating /home/yushutian/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.795s] copying py01_topic/__init__.py -> /home/yushutian/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.795s] copying py01_topic/demo01_talker_str_py.py -> /home/yushutian/ws01_plumbing/build/py01_topic/build/lib/py01_topic
+[0.796s] running install
+[0.800s] running install_lib
+[0.810s] creating /home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages/py01_topic
+[0.810s] copying /home/yushutian/ws01_plumbing/build/py01_topic/build/lib/py01_topic/__init__.py -> /home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages/py01_topic
+[0.811s] copying /home/yushutian/ws01_plumbing/build/py01_topic/build/lib/py01_topic/demo01_talker_str_py.py -> /home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages/py01_topic
+[0.811s] byte-compiling /home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages/py01_topic/__init__.py to __init__.cpython-312.pyc
+[0.811s] byte-compiling /home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages/py01_topic/demo01_talker_str_py.py to demo01_talker_str_py.cpython-312.pyc
+[0.811s] running install_data
+[0.811s] creating /home/yushutian/ws01_plumbing/install/py01_topic/share/ament_index
+[0.811s] creating /home/yushutian/ws01_plumbing/install/py01_topic/share/ament_index/resource_index
+[0.811s] creating /home/yushutian/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.811s] copying resource/py01_topic -> /home/yushutian/ws01_plumbing/install/py01_topic/share/ament_index/resource_index/packages
+[0.811s] copying package.xml -> /home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic
+[0.811s] running install_egg_info
+[0.823s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info
+[0.823s] running install_scripts
+[0.899s] Installing demo01_talker_str_py script to /home/yushutian/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.899s] writing list of installed files to '/home/yushutian/ws01_plumbing/build/py01_topic/install.log'
+[0.917s] Invoked command in '/home/yushutian/ws01_plumbing/src/py01_topic' returned '0': AMENT_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yushutian/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/yushutian/ws01_plumbing/build/py01_topic/build install --record /home/yushutian/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

@@ -1,0 +1,20 @@
+[0.010s] Invoking command in '/home/yushutian/ws01_plumbing/build/cpp_pub': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp_pub -- -j32 -l32
+[0.185s] Invoked command in '/home/yushutian/ws01_plumbing/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp_pub -- -j32 -l32
+[0.186s] Invoking command in '/home/yushutian/ws01_plumbing/build/cpp_pub': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp_pub
+[0.191s] -- Install configuration: ""
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/ament_index/resource_index/package_run_dependencies/cpp_pub
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/ament_index/resource_index/parent_prefix_path/cpp_pub
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.sh
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/environment/ament_prefix_path.dsv
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/environment/path.sh
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/environment/path.dsv
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/local_setup.bash
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/local_setup.sh
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/local_setup.zsh
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/local_setup.dsv
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.dsv
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/ament_index/resource_index/packages/cpp_pub
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig.cmake
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/cmake/cpp_pubConfig-version.cmake
+[0.192s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.xml
+[0.207s] Invoked command in '/home/yushutian/ws01_plumbing/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp_pub

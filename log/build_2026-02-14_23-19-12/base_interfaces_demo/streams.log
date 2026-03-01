@@ -1,0 +1,17 @@
+[0.009s] Invoking command in '/home/yushutian/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/base_interfaces_demo -- -j32 -l32
+[0.037s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.114s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.148s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.168s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.323s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:223 (message):
+[0.323s]   Packages installing interfaces must include
+[0.323s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[0.324s]   package.xml
+[0.324s] Call Stack (most recent call first):
+[0.324s]   CMakeLists.txt:21 (rosidl_generate_interfaces)
+[0.324s] 
+[0.324s] [0m
+[0.324s] -- Configuring incomplete, errors occurred!
+[0.327s] gmake: *** [Makefile:815：cmake_check_build_system] 错误 1
+[0.329s] Invoked command in '/home/yushutian/ws01_plumbing/build/base_interfaces_demo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/base_interfaces_demo -- -j32 -l32

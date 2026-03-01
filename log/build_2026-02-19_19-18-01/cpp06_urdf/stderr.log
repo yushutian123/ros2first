@@ -1,0 +1,8 @@
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    PYTHON_EXECUTABLE
+    PYTHON_INCLUDE_DIR
+    PYTHON_LIBRARY
+
+[0m

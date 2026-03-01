@@ -1,0 +1,395 @@
+[0.068s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.068s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f96ad61dbb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f96ad7ef6e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f96ad7ef6e0>>)
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.094s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.095s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.095s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yushutian/ws01_plumbing'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.112s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extensions ['ignore', 'ignore_ament_install']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extension 'ignore'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extension 'ignore_ament_install'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extensions ['colcon_pkg']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extension 'colcon_pkg'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extensions ['colcon_meta']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extension 'colcon_meta'
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extensions ['ros']
+[0.113s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_pub) by extension 'ros'
+[0.114s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_pub' with type 'ros.ament_cmake' and name 'cpp_pub'
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extensions ['ignore', 'ignore_ament_install']
+[0.114s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extension 'colcon_pkg'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extensions ['colcon_meta']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extension 'colcon_meta'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extensions ['ros']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(cpp_sub) by extension 'ros'
+[0.115s] DEBUG:colcon.colcon_core.package_identification:Package 'cpp_sub' with type 'ros.ament_cmake' and name 'cpp_sub'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.115s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[0.116s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[0.116s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[0.117s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[0.117s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(src/py01_topic) by extension 'ros'
+[0.118s] DEBUG:colcon.colcon_core.package_identification:Package 'src/py01_topic' with type 'ros.ament_python' and name 'py01_topic'
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.131s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.132s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/yushutian/ws01_plumbing/install
+[0.133s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 286 installed packages in /opt/ros/jazzy
+[0.134s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_args' from command line to '['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so']'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'base_interfaces_demo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'base_interfaces_demo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yushutian/ws01_plumbing/build/base_interfaces_demo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo', 'merge_install': False, 'path': '/home/yushutian/ws01_plumbing/src/base_interfaces_demo', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_args' from command line to '['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so']'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yushutian/ws01_plumbing/build/cpp01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yushutian/ws01_plumbing/install/cpp01_topic', 'merge_install': False, 'path': '/home/yushutian/ws01_plumbing/src/cpp01_topic', 'symlink_install': False, 'test_result_base': None}
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_args' from command line to '['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so']'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_target' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_clean_first' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'cmake_force_configure' from command line to 'False'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'ament_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.158s] Level 5:colcon.colcon_core.verb:set package 'cpp_pub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.158s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_pub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yushutian/ws01_plumbing/build/cpp_pub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yushutian/ws01_plumbing/install/cpp_pub', 'merge_install': False, 'path': '/home/yushutian/ws01_plumbing/cpp_pub', 'symlink_install': False, 'test_result_base': None}
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'cmake_args' from command line to '['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so']'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'cmake_target' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'cmake_clean_cache' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'cmake_clean_first' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'cmake_force_configure' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'ament_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'catkin_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'cpp_sub' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.159s] DEBUG:colcon.colcon_core.verb:Building package 'cpp_sub' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yushutian/ws01_plumbing/build/cpp_sub', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yushutian/ws01_plumbing/install/cpp_sub', 'merge_install': False, 'path': '/home/yushutian/ws01_plumbing/cpp_sub', 'symlink_install': False, 'test_result_base': None}
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_args' from command line to '['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so']'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_target' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[0.159s] Level 5:colcon.colcon_core.verb:set package 'py01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.159s] DEBUG:colcon.colcon_core.verb:Building package 'py01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yushutian/ws01_plumbing/build/py01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DPYTHON_EXECUTABLE=/usr/bin/python3', '-DPYTHON_INCLUDE_DIR=/usr/include/python3.12', '-DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.12.so'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yushutian/ws01_plumbing/install/py01_topic', 'merge_install': False, 'path': '/home/yushutian/ws01_plumbing/src/py01_topic', 'symlink_install': False, 'test_result_base': None}
+[0.159s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.160s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.160s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yushutian/ws01_plumbing/src/base_interfaces_demo' with build type 'ament_cmake'
+[0.160s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yushutian/ws01_plumbing/src/base_interfaces_demo'
+[0.162s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.162s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/base_interfaces_demo -- -j32 -l32
+[0.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/base_interfaces_demo -- -j32 -l32
+[0.450s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/build/base_interfaces_demo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/base_interfaces_demo
+[0.489s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/build/base_interfaces_demo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/base_interfaces_demo
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo' for CMake module files
+[0.491s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo' for CMake config files
+[0.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[0.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[0.493s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib'
+[0.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[0.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/bin'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages'
+[0.494s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'pythonpath')
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.ps1'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.dsv'
+[0.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.sh'
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/bin'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[0.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[0.496s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[0.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[0.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(base_interfaces_demo)
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo' for CMake module files
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo' for CMake config files
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'cmake_prefix_path')
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.ps1'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/cmake_prefix_path.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib'
+[0.498s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'ld_library_path_lib')
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/ld_library_path_lib.sh'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/bin'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/pkgconfig/base_interfaces_demo.pc'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages'
+[0.499s] Level 1:colcon.colcon_core.shell:create_environment_hook('base_interfaces_demo', 'pythonpath')
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.dsv'
+[0.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/hook/pythonpath.sh'
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/bin'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.ps1'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.bash'
+[0.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/package.zsh'
+[0.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/colcon-core/packages/base_interfaces_demo)
+[0.502s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yushutian/ws01_plumbing/src/cpp01_topic' with build type 'ament_cmake'
+[0.502s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yushutian/ws01_plumbing/src/cpp01_topic'
+[0.502s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.502s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.505s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yushutian/ws01_plumbing/cpp_pub' with build type 'ament_cmake'
+[0.505s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yushutian/ws01_plumbing/cpp_pub'
+[0.505s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.505s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.507s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yushutian/ws01_plumbing/cpp_sub' with build type 'ament_cmake'
+[0.507s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yushutian/ws01_plumbing/cpp_sub'
+[0.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.509s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/yushutian/ws01_plumbing/src/py01_topic' with build type 'ament_python'
+[0.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_topic', 'ament_prefix_path')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.dsv'
+[0.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/hook/ament_prefix_path.sh'
+[0.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.514s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/build/cpp_pub': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp_pub -- -j32 -l32
+[0.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/build/cpp_sub': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp_sub -- -j32 -l32
+[0.680s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/yushutian/ws01_plumbing/src/py01_topic'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.687s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp01_topic
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/build/cpp_sub' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp_sub -- -j32 -l32
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/build/cpp_sub': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp_sub
+[0.690s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp_pub -- -j32 -l32
+[0.691s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/build/cpp_pub': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp_pub
+[0.696s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[0.696s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic' for CMake module files
+[0.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp01_topic
+[0.697s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic' for CMake config files
+[0.698s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[0.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[0.698s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/lib'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/bin'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/lib/python3.12/site-packages'
+[0.699s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/bin'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[0.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.sh'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.bash'
+[0.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[0.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[0.700s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic' for CMake module files
+[0.701s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic' for CMake config files
+[0.701s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[0.701s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[0.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/lib'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/bin'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/lib/python3.12/site-packages'
+[0.702s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp01_topic/bin'
+[0.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.sh'
+[0.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.bash'
+[0.704s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[0.704s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[0.704s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_sub)
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub' for CMake module files
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/build/cpp_sub' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp_sub
+[0.705s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub' for CMake config files
+[0.705s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_sub', 'cmake_prefix_path')
+[0.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/hook/cmake_prefix_path.ps1'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/hook/cmake_prefix_path.dsv'
+[0.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/hook/cmake_prefix_path.sh'
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub/bin'
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub/lib/pkgconfig/cpp_sub.pc'
+[0.706s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub/lib/python3.12/site-packages'
+[0.707s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub/bin'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.ps1'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.dsv'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.sh'
+[0.707s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.bash'
+[0.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.zsh'
+[0.708s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/cpp_sub/share/colcon-core/packages/cpp_sub)
+[0.708s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_sub)
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub' for CMake module files
+[0.708s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub' for CMake config files
+[0.708s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_sub', 'cmake_prefix_path')
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/hook/cmake_prefix_path.ps1'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/hook/cmake_prefix_path.dsv'
+[0.709s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/hook/cmake_prefix_path.sh'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub/bin'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub/lib/pkgconfig/cpp_sub.pc'
+[0.709s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub/lib/python3.12/site-packages'
+[0.710s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_sub/bin'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.ps1'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.dsv'
+[0.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.sh'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.bash'
+[0.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_sub/share/cpp_sub/package.zsh'
+[0.711s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/cpp_sub/share/colcon-core/packages/cpp_sub)
+[0.712s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pub)
+[0.712s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub' for CMake module files
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/build/cpp_pub' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp_pub
+[0.713s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub' for CMake config files
+[0.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pub', 'cmake_prefix_path')
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.ps1'
+[0.713s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.dsv'
+[0.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.sh'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub/bin'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub/lib/pkgconfig/cpp_pub.pc'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub/lib/python3.12/site-packages'
+[0.714s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub/bin'
+[0.714s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.ps1'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.dsv'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.sh'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.bash'
+[0.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.zsh'
+[0.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/cpp_pub/share/colcon-core/packages/cpp_pub)
+[0.716s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp_pub)
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub' for CMake module files
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub' for CMake config files
+[0.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp_pub', 'cmake_prefix_path')
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.ps1'
+[0.716s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.dsv'
+[0.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/hook/cmake_prefix_path.sh'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub/bin'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub/lib/pkgconfig/cpp_pub.pc'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub/lib/python3.12/site-packages'
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/cpp_pub/bin'
+[0.717s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.dsv'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.sh'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.bash'
+[0.718s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/cpp_pub/share/cpp_pub/package.zsh'
+[0.719s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/cpp_pub/share/colcon-core/packages/cpp_pub)
+[1.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yushutian/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yushutian/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/yushutian/ws01_plumbing/build/py01_topic/build install --record /home/yushutian/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[1.379s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/py01_topic' for CMake module files
+[1.379s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yushutian/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp_sub:/home/yushutian/ws01_plumbing/install/cpp_pub:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yushutian/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/yushutian/ws01_plumbing/build/py01_topic/build install --record /home/yushutian/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/py01_topic' for CMake config files
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/py01_topic/lib'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/py01_topic/bin'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/py01_topic/lib/pkgconfig/py01_topic.pc'
+[1.380s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages'
+[1.380s] Level 1:colcon.colcon_core.shell:create_environment_hook('py01_topic', 'pythonpath')
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.ps1'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.dsv'
+[1.381s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/hook/pythonpath.sh'
+[1.382s] Level 1:colcon.colcon_core.environment:checking '/home/yushutian/ws01_plumbing/install/py01_topic/bin'
+[1.382s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(py01_topic)
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/package.ps1'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/package.dsv'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/package.sh'
+[1.382s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/package.bash'
+[1.383s] INFO:colcon.colcon_core.shell:Creating package script '/home/yushutian/ws01_plumbing/install/py01_topic/share/py01_topic/package.zsh'
+[1.383s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yushutian/ws01_plumbing/install/py01_topic/share/colcon-core/packages/py01_topic)
+[1.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.383s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.383s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.388s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.399s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.399s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yushutian/ws01_plumbing/install/local_setup.ps1'
+[1.401s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yushutian/ws01_plumbing/install/_local_setup_util_ps1.py'
+[1.403s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yushutian/ws01_plumbing/install/setup.ps1'
+[1.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yushutian/ws01_plumbing/install/local_setup.sh'
+[1.407s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yushutian/ws01_plumbing/install/_local_setup_util_sh.py'
+[1.408s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yushutian/ws01_plumbing/install/setup.sh'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yushutian/ws01_plumbing/install/local_setup.bash'
+[1.410s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yushutian/ws01_plumbing/install/setup.bash'
+[1.411s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yushutian/ws01_plumbing/install/local_setup.zsh'
+[1.412s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yushutian/ws01_plumbing/install/setup.zsh'

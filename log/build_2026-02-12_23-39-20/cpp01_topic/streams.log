@@ -1,0 +1,47 @@
+[0.009s] Invoking command in '/home/yushutian/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[0.035s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.214s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.232s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.239s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.247s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.302s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.303s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.365s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.432s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.441s] -- Found base_interfaces_demo: 0.0.0 (/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)
+[0.450s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.534s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.534s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yushutian/ws01_plumbing/src/cpp01_topic/include>
+[0.534s] -- Configured cppcheck exclude dirs and/or files: 
+[0.534s] -- Added test 'lint_cmake' to check CMake code style
+[0.535s] -- Added test 'uncrustify' to check C / C++ code style
+[0.535s] -- Configured uncrustify additional arguments: 
+[0.535s] -- Added test 'xmllint' to check XML markup files
+[0.536s] -- Configuring done (0.5s)
+[0.542s] -- Generating done (0.0s)
+[0.545s] -- Build files have been written to: /home/yushutian/ws01_plumbing/build/cpp01_topic
+[0.588s] [ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker_str.dir/src/demo01_talker_str.cpp.o[0m
+[3.206s] [100%] [32m[1mLinking CXX executable demo01_talker_str[0m
+[3.334s] [100%] Built target demo01_talker_str
+[3.349s] Invoked command in '/home/yushutian/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/yushutian/ws01_plumbing/build/cpp01_topic -- -j32 -l32
+[3.351s] Invoking command in '/home/yushutian/ws01_plumbing/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp01_topic
+[3.361s] -- Install configuration: ""
+[3.361s] -- Installing: /home/yushutian/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str
+[3.362s] -- Set non-toolchain portion of runtime path of "/home/yushutian/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str" to ""
+[3.363s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[3.363s] -- Installing: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[3.363s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[3.363s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[3.363s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[3.363s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[3.363s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[3.364s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[3.364s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[3.364s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[3.364s] -- Installing: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv
+[3.364s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[3.365s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[3.365s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[3.366s] -- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml
+[3.367s] Invoked command in '/home/yushutian/ws01_plumbing/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/yushutian/ws01_plumbing/install/py01_topic:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/yushutian/ws01_plumbing/build/cpp01_topic

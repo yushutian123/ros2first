@@ -1,0 +1,5 @@
+[31mCMake Error at CMakeLists.txt:18 (find_package):
+  find_package called with invalid argument "REQUIRD"
+
+[0m
+gmake: *** [Makefile:815：cmake_check_build_system] 错误 1

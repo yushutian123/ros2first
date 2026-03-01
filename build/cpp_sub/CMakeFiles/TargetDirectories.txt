@@ -1,0 +1,9 @@
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/uninstall.dir
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/cpp_sub_uninstall.dir
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/test.dir
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/edit_cache.dir
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/rebuild_cache.dir
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/list_install_components.dir
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/install.dir
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/install/local.dir
+/home/yushutian/ws01_plumbing/build/cpp_sub/CMakeFiles/install/strip.dir

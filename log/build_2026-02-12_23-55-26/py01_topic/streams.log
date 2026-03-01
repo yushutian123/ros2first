@@ -1,0 +1,21 @@
+[0.524s] Invoking command in '/home/yushutian/ws01_plumbing/src/py01_topic': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yushutian/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/yushutian/ws01_plumbing/build/py01_topic/build install --record /home/yushutian/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data
+[0.700s] running egg_info
+[0.712s] writing ../../build/py01_topic/py01_topic.egg-info/PKG-INFO
+[0.712s] writing dependency_links to ../../build/py01_topic/py01_topic.egg-info/dependency_links.txt
+[0.713s] writing entry points to ../../build/py01_topic/py01_topic.egg-info/entry_points.txt
+[0.713s] writing requirements to ../../build/py01_topic/py01_topic.egg-info/requires.txt
+[0.713s] writing top-level names to ../../build/py01_topic/py01_topic.egg-info/top_level.txt
+[0.735s] reading manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.736s] writing manifest file '../../build/py01_topic/py01_topic.egg-info/SOURCES.txt'
+[0.736s] running build
+[0.736s] running build_py
+[0.736s] running install
+[0.741s] running install_lib
+[0.752s] running install_data
+[0.752s] running install_egg_info
+[0.763s] removing '/home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[0.763s] Copying ../../build/py01_topic/py01_topic.egg-info to /home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages/py01_topic-0.0.0-py3.12.egg-info
+[0.764s] running install_scripts
+[0.839s] Installing demo01_talker_str_py script to /home/yushutian/ws01_plumbing/install/py01_topic/lib/py01_topic
+[0.840s] writing list of installed files to '/home/yushutian/ws01_plumbing/build/py01_topic/install.log'
+[0.857s] Invoked command in '/home/yushutian/ws01_plumbing/src/py01_topic' returned '0': CMAKE_PREFIX_PATH=/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/home/yushutian/ws01_plumbing/install/cpp01_topic:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/yushutian/ws01_plumbing/build/py01_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yushutian/ws01_plumbing/install/py01_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py01_topic build --build-base /home/yushutian/ws01_plumbing/build/py01_topic/build install --record /home/yushutian/ws01_plumbing/build/py01_topic/install.log --single-version-externally-managed install_data

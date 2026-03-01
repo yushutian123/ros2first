@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000548] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000592] (-) JobUnselected: {'identifier': 'py01_topic'}
+[0.000628] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict({'base_interfaces_demo': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo'})}
+[0.000697] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.009534] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.010385] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.010960] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yushutian/ws01_plumbing/build/cpp01_topic', '--', '-j32', '-l32'], 'cwd': '/home/yushutian/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yushutian', 'LC_TIME': 'zh_CN.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yushutian', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.109.3', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/yushutian/.nvm/versions/node/v18.20.8/bin', 'NVM_INC': '/home/yushutian/.nvm/versions/node/v18.20.8/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'zh_CN.UTF-8', 'MANAGERPID': '2328', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2591', 'BUNDLED_DEBUGPY_PATH': '/home/yushutian/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '29310', 'NVM_DIR': '/home/yushutian/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yushutian', 'JOURNAL_STREAM': '9:43423', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yushutian', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/yushutian/.nvm/versions/node/v18.20.8/bin:/home/yushutian/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yushutian/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/yushutian-Legion-Y7000P-IRX10:@/tmp/.ICE-unix/2534,unix/yushutian-Legion-Y7000P-IRX10:/tmp/.ICE-unix/2534', 'INVOCATION_ID': '1931ba412b7940e5b296a778ca7abf84', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yushutian/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8798ab63935abd0e.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/yushutian/.config/Code/User/workspaceStorage/1819c69ba63bd16605239c41670be48b/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8BSMK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/yushutian/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yushutian/ws01_plumbing/build/cpp01_topic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/yushutian/anaconda3/bin/conda', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.040655] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099802] (-) TimerEvent: {}
+[0.200059] (-) TimerEvent: {}
+[0.223179] (cpp01_topic) StdoutLine: {'line': b'-- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.244151] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.251134] (cpp01_topic) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.260112] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.270493] (cpp01_topic) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300210] (-) TimerEvent: {}
+[0.324756] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.326694] (cpp01_topic) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.388472] (cpp01_topic) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400319] (-) TimerEvent: {}
+[0.449211] (cpp01_topic) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.461601] (cpp01_topic) StdoutLine: {'line': b'-- Found base_interfaces_demo: 0.0.0 (/home/yushutian/ws01_plumbing/install/base_interfaces_demo/share/base_interfaces_demo/cmake)\n'}
+[0.471939] (cpp01_topic) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.500504] (-) TimerEvent: {}
+[0.549756] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.549884] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/yushutian/ws01_plumbing/src/cpp01_topic/include>\n'}
+[0.549933] (cpp01_topic) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.550200] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.550849] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.550944] (cpp01_topic) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.551149] (cpp01_topic) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.551827] (cpp01_topic) StdoutLine: {'line': b'-- Configuring done (0.5s)\n'}
+[0.562755] (cpp01_topic) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.566330] (cpp01_topic) StdoutLine: {'line': b'-- Build files have been written to: /home/yushutian/ws01_plumbing/build/cpp01_topic\n'}
+[0.595666] (cpp01_topic) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/demo02_listener_str.dir/src/demo02_listener_str.cpp.o\x1b[0m\n'}
+[0.600637] (-) TimerEvent: {}
+[0.602152] (cpp01_topic) StdoutLine: {'line': b'[ 75%] Built target demo01_talker_str\n'}
+[0.700739] (-) TimerEvent: {}
+[0.800981] (-) TimerEvent: {}
+[0.901262] (-) TimerEvent: {}
+[1.001561] (-) TimerEvent: {}
+[1.101818] (-) TimerEvent: {}
+[1.202156] (-) TimerEvent: {}
+[1.302375] (-) TimerEvent: {}
+[1.402695] (-) TimerEvent: {}
+[1.502979] (-) TimerEvent: {}
+[1.603279] (-) TimerEvent: {}
+[1.703547] (-) TimerEvent: {}
+[1.803806] (-) TimerEvent: {}
+[1.904144] (-) TimerEvent: {}
+[2.004475] (-) TimerEvent: {}
+[2.104720] (-) TimerEvent: {}
+[2.204999] (-) TimerEvent: {}
+[2.305255] (-) TimerEvent: {}
+[2.405570] (-) TimerEvent: {}
+[2.505824] (-) TimerEvent: {}
+[2.606097] (-) TimerEvent: {}
+[2.706324] (-) TimerEvent: {}
+[2.806559] (-) TimerEvent: {}
+[2.906817] (-) TimerEvent: {}
+[3.007113] (-) TimerEvent: {}
+[3.107353] (-) TimerEvent: {}
+[3.207590] (-) TimerEvent: {}
+[3.307932] (-) TimerEvent: {}
+[3.408274] (-) TimerEvent: {}
+[3.508552] (-) TimerEvent: {}
+[3.608797] (-) TimerEvent: {}
+[3.709083] (-) TimerEvent: {}
+[3.809347] (-) TimerEvent: {}
+[3.909590] (-) TimerEvent: {}
+[4.009867] (-) TimerEvent: {}
+[4.110142] (-) TimerEvent: {}
+[4.210424] (-) TimerEvent: {}
+[4.310686] (-) TimerEvent: {}
+[4.410983] (-) TimerEvent: {}
+[4.511317] (-) TimerEvent: {}
+[4.611613] (-) TimerEvent: {}
+[4.711890] (-) TimerEvent: {}
+[4.812111] (-) TimerEvent: {}
+[4.912375] (-) TimerEvent: {}
+[5.012609] (-) TimerEvent: {}
+[5.112853] (-) TimerEvent: {}
+[5.213099] (-) TimerEvent: {}
+[5.313378] (cpp01_topic) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable demo02_listener_str\x1b[0m\n'}
+[5.313527] (-) TimerEvent: {}
+[5.413734] (-) TimerEvent: {}
+[5.494459] (cpp01_topic) StdoutLine: {'line': b'[100%] Built target demo02_listener_str\n'}
+[5.502824] (cpp01_topic) CommandEnded: {'returncode': 0}
+[5.503295] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'install'}
+[5.510891] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yushutian/ws01_plumbing/build/cpp01_topic'], 'cwd': '/home/yushutian/ws01_plumbing/build/cpp01_topic', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yushutian', 'LC_TIME': 'zh_CN.UTF-8', 'FONTCONFIG_PATH': '/etc/fonts', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yushutian', 'CHROME_DESKTOP': 'code.desktop', 'CONDA_SHLVL': '0', 'TERM_PROGRAM_VERSION': '1.109.3', 'DESKTOP_SESSION': 'ubuntu', 'NVM_BIN': '/home/yushutian/.nvm/versions/node/v18.20.8/bin', 'NVM_INC': '/home/yushutian/.nvm/versions/node/v18.20.8/include/node', 'GIO_LAUNCHED_DESKTOP_FILE': '/var/lib/snapd/desktop/applications/code_code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SDL_IM_MODULE': 'fcitx', 'LC_MONETARY': 'zh_CN.UTF-8', 'MANAGERPID': '2328', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2591', 'BUNDLED_DEBUGPY_PATH': '/home/yushutian/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_CE_M': '', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '29310', 'NVM_DIR': '/home/yushutian/.nvm', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'yushutian', 'JOURNAL_STREAM': '9:43423', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'XDG_DATA_DIRS_VSCODE_SNAP_ORIG': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'USERNAME': 'yushutian', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', '_CE_CONDA': '', 'FC_FONTATIONS': '1', 'PATH': '/opt/ros/jazzy/bin:/home/yushutian/.nvm/versions/node/v18.20.8/bin:/home/yushutian/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/yushutian/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/yushutian-Legion-Y7000P-IRX10:@/tmp/.ICE-unix/2534,unix/yushutian-Legion-Y7000P-IRX10:/tmp/.ICE-unix/2534', 'INVOCATION_ID': '1931ba412b7940e5b296a778ca7abf84', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/yushutian/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-8798ab63935abd0e.txt', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/yushutian/.config/Code/User/workspaceStorage/1819c69ba63bd16605239c41670be48b/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.8BSMK3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy', 'CONDA_PYTHON_EXE': '/home/yushutian/anaconda3/bin/python', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'FONTCONFIG_FILE': '/etc/fonts/fonts.conf', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GJS_DEBUG_OUTPUT': 'stderr', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/yushutian/ws01_plumbing/build/cpp01_topic', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CONDA_EXE': '/home/yushutian/anaconda3/bin/conda', 'CLUTTER_IM_MODULE': 'xim', 'NVM_CD_FLAGS': '', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'QTWEBENGINE_DICTIONARIES_PATH': '/usr/share/hunspell-bdic/', 'PYTHONPATH': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/yushutian/ws01_plumbing/install/base_interfaces_demo:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.513825] (-) TimerEvent: {}
+[5.519614] (cpp01_topic) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.521018] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo01_talker_str\n'}
+[5.521135] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/yushutian/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str\n'}
+[5.526761] (cpp01_topic) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yushutian/ws01_plumbing/install/cpp01_topic/lib/cpp01_topic/demo02_listener_str" to ""\n'}
+[5.527079] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic\n'}
+[5.527192] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic\n'}
+[5.527485] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh\n'}
+[5.527865] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv\n'}
+[5.528112] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.sh\n'}
+[5.528423] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/environment/path.dsv\n'}
+[5.528659] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.bash\n'}
+[5.528831] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.sh\n'}
+[5.529010] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.zsh\n'}
+[5.529178] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/local_setup.dsv\n'}
+[5.529342] (cpp01_topic) StdoutLine: {'line': b'-- Installing: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.dsv\n'}
+[5.529506] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic\n'}
+[5.529661] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake\n'}
+[5.529817] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake\n'}
+[5.529986] (cpp01_topic) StdoutLine: {'line': b'-- Up-to-date: /home/yushutian/ws01_plumbing/install/cpp01_topic/share/cpp01_topic/package.xml\n'}
+[5.531283] (cpp01_topic) CommandEnded: {'returncode': 0}
+[5.542215] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 0}
+[5.542864] (-) EventReactorShutdown: {}

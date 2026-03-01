@@ -1,0 +1,36 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfaces_demo/msg/Num",
+      "fields": [
+        {
+          "name": "num1",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "num2",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfaces_demo/msg/Num",
+      "hash_string": "RIHS01_8987252e8eb0752b00dc9d4013498faf03d4ba6a5a0cde2ec1029c9117a2515b"
+    }
+  ]
+}
